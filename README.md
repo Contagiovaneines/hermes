@@ -82,12 +82,14 @@ hermes-agent-lab/
 │   ├── 06-bypass-em-labs-autorizados.md
 │   ├── 07-instalar-linux-nativo.md
 │   ├── 08-instalar-macos.md
-│   └── 09-videos-e-leituras.md
+│   ├── 09-videos-e-leituras.md
+│   └── 10-pentest-no-proprio-site-tcc.md
 └── projetos/
     ├── tiktok-live-analyst/
     ├── juice-shop-tracker/
     ├── recon-organizer/
-    └── ctf-writeup-assistant/
+    ├── ctf-writeup-assistant/
+    └── tcc-pentest/
 ```
 
 ## Instalação por sistema operacional
@@ -108,6 +110,7 @@ Depois de ter o Kali rodando (em qualquer SO), siga [`docs/03-instalar-hermes-ag
 4. [`docs/04-trilhas-legitimas-pentest.md`](docs/04-trilhas-legitimas-pentest.md) — labs e certificações.
 5. [`docs/05-casos-de-estudo-labs-autorizados.md`](docs/05-casos-de-estudo-labs-autorizados.md) — ideias de uso do agente em labs.
 6. [`docs/06-bypass-em-labs-autorizados.md`](docs/06-bypass-em-labs-autorizados.md) — técnicas de bypass ensinadas oficialmente em Juice Shop/PortSwigger, sempre em ambiente de treino.
+7. [`docs/10-pentest-no-proprio-site-tcc.md`](docs/10-pentest-no-proprio-site-tcc.md) — quando o alvo é um site real seu (ex. TCC): metodologia, cuidados de produção e templates.
 
 ## Projetos deste repositório
 
@@ -117,6 +120,7 @@ Depois de ter o Kali rodando (em qualquer SO), siga [`docs/03-instalar-hermes-ag
 | [`projetos/juice-shop-tracker/`](projetos/juice-shop-tracker/) | Agente que acompanha seu progresso nos desafios do OWASP Juice Shop e organiza anotações por categoria (incluindo bypass). |
 | [`projetos/recon-organizer/`](projetos/recon-organizer/) | Agente que organiza saídas de nmap/gobuster/nikto rodadas manualmente por você em máquinas de laboratório (HTB/THM). |
 | [`projetos/ctf-writeup-assistant/`](projetos/ctf-writeup-assistant/) | Agente que ajuda a transformar suas anotações de laboratório em writeups estruturados, no padrão usado pra portfólio/OSCP. |
+| [`projetos/tcc-pentest/`](projetos/tcc-pentest/) | Templates de autorização, metodologia e relatório pra pentest no seu próprio site em contexto de TCC. |
 
 Todos seguem o mesmo padrão: você faz o trabalho técnico manualmente (é isso que ensina), o agente organiza, explica e documenta.
 
