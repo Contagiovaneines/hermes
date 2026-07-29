@@ -1,0 +1,6 @@
+categoria,desafio,status,data,notas
+Broken Access Control,Admin Section,resolvido sozinho,2026-07-20,rota /administration sem checagem de role no front
+Injection,Login Admin,resolvido com dica,2026-07-21,SQL injection classica no campo email
+Broken Authentication,Password Strength,nao tentado,,
+XSS,DOM XSS,nao tentado,,
+Cryptographic Issues,Nested Easter Egg,nao tentado,,
